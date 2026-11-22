@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: transparent;
+  font-family: 'Space Mono', monospace;
+}
+
+.fortune-widget {
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 28px 22px;
+  text-align: center;
+  color: #f8eaff;
+  background: linear-gradient(145deg, #211039, #10091f);
+  border: 2px solid #bc75ff;
+  border-radius: 16px;
+  box-shadow: 0 0 18px #a64dff55;
+}
+
+.widget-label {
+  color: #f5a9ff;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.crystal {
+  font-size: 65px;
+  margin: 22px 0 10px;
+  filter: drop-shadow(0 0 12px #d47bff);
+}
+
+h2 {
+  font-size: 21px;
+  margin: 10px 0;
+}
+
+.subtitle {
+  color: #c9a8e5;
+  font-size: 12px;
+}
+
+.fortune-display {
+  min-height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0;
+  padding: 20px;
+  background: #ffffff0b;
+  border: 1px dashed #a76de0;
+  border-radius: 10px;
+  color: #ffe0ff;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+button {
+  padding: 14px 20px;
+  border: 1px solid #f0b4ff;
+  border-radius: 7px;
+  background: linear-gradient(135deg, #c35cff, #7438d0);
+  color: white;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 18px #d77bff88;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+.footer {
+  margin-top: 24px;
+  color: #9872b4;
+  font-size: 8px;
+  letter-spacing: 1px;
+}
